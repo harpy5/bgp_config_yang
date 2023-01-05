@@ -1,0 +1,22 @@
+{
+    "cml_nxos_device1":{
+        "int_conf_file": "SW1_interfaces.json",
+        "bgp_conf_file": "SW1_bgp_config.json",
+        "address": "10.85.48.137",
+        "netconf_port": 830,
+        "restconf_port": 443,
+        "ssh_port": 22,
+        "username": "cisco",
+        "password": "cisco"
+    },
+    "cml_nxos_device2":{
+        "int_conf_file" :"SW2_interfaces.json",
+        "bgp_conf_file": "SW2_bgp_config.json",
+        "address": "10.85.48.138",
+        "netconf_port": 830,
+        "restconf_port": 443,
+        "ssh_port": 22,
+        "username": "cisco",
+        "password": "cisco"
+    }
+}
