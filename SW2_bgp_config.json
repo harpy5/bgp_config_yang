@@ -1,0 +1,18 @@
+{
+
+    "bgp_config":{
+        "asn": "65200",
+        "rtrId": "192.168.2.1",
+        "Dom-Af": "ipv4-ucast",
+        "prefix-list": {
+            "prefix": "10.90.1.0/24",
+            "prefix2": "192.168.1.0/24"
+        },
+        "peer-list":{
+            "peer1": "10.90.1.1",
+            "asn": "65100",
+            "address-family": "ipv4-ucast"
+        }
+    }
+
+}
